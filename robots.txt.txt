@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /google919228f98aeb3693.html
+Disallow: /sitemap.xml
