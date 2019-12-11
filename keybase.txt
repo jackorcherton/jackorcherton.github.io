@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jackorcherton
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jackorcherton.github.io
+  * I am jackorcherton (https://keybase.io/jackorcherton) on keybase.
+  * I have a public key ASCdiLBvsyozsl_O-7Mvw1ypMBHqeBreTc-rftUrBLV5IQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209d88b06fb32a33b25fcefbb32fc35ca93011ea781ade4dcfab7ed52b04b579210a",
+      "host": "keybase.io",
+      "kid": "01209d88b06fb32a33b25fcefbb32fc35ca93011ea781ade4dcfab7ed52b04b579210a",
+      "uid": "d18e7fac959e49f47861652ef5b18419",
+      "username": "jackorcherton"
+    },
+    "merkle_root": {
+      "ctime": 1576072477,
+      "hash": "609b892c6743ba577ecf1ff215a7959a06ef2a3150edf09a16ccf0500fb6677c1e4423731ff495c407cfab3ef8b2b2164e792c7226f4e175735edbc2d700745b",
+      "hash_meta": "908266d5143b51f7e8fe771d2dc07ffc4e03a5f78d35207146bc8a7311c0a35f",
+      "seqno": 13372875
+    },
+    "service": {
+      "entropy": "fQ0pciZEvhlxUF7efNXI2B1X",
+      "hostname": "jackorcherton.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.0.0"
+  },
+  "ctime": 1576072491,
+  "expire_in": 504576000,
+  "prev": "aa5c8def03514d7c075544ba1b65f4b4af6a3e43d961afbef5addbc175c3e5a3",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgnYiwb7MqM7JfzvuzL8NcqTAR6nga3k3Pq37VKwS1eSEKp3BheWxvYWTESpcCCMQgqlyN7wNRTXwHVUS6G2X0tK9qPkPZYa++9a3bwXXD5aPEIHJQAZ7Bk3NhlFrVb4mmwNfuVKqiWt1L/NYFIXvUwnacAgHCo3NpZ8RA5tXZTSljGFPd019qG4NkQYnH/D7py+iJ769QTpVeXEVz7wXJo7ICimRcJFwOHUZTTxcb49x162nHHzXU4rrEAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAWB9I2LarWALCXc9xnUvbDtLcMMvoSr+dmq0XwVWrXXo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jackorcherton
+
+==================================================================
