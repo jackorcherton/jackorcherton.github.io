@@ -1,8 +1,0 @@
-User-agent: *
-Disallow: /google919228f98aeb3693.html
-Disallow: /sitemap.xml
-Disallow: /newindex.html
-Disallow: /BingSiteAuth.xml
-Disallow: /keybase.txt
-Disallow: /success.html
-

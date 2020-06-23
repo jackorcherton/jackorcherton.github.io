@@ -1,11 +1,13 @@
+---
+---
 @font-face {
   font-family: 'socialicons';
-  src: url('../font/socialicons.eot?71315097');
-  src: url('../font/socialicons.eot?71315097#iefix') format('embedded-opentype'),
-       url('../font/socialicons.woff2?71315097') format('woff2'),
-       url('../font/socialicons.woff?71315097') format('woff'),
-       url('../font/socialicons.ttf?71315097') format('truetype'),
-       url('../font/socialicons.svg?71315097#socialicons') format('svg');
+  src: url('font/socialicons.eot?71315097');
+  src: url('font/socialicons.eot?71315097#iefix') format('embedded-opentype'),
+       url('font/socialicons.woff2?71315097') format('woff2'),
+       url('font/socialicons.woff?71315097') format('woff'),
+       url('font/socialicons.ttf?71315097') format('truetype'),
+       url('font/socialicons.svg?71315097#socialicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -55,9 +57,9 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-.icon-mail:before { content: '\e800'; } /* '' */
-.icon-twitter:before { content: '\f099'; } /* '' */
-.icon-facebook:before { content: '\f09a'; } /* '' */
-.icon-github-circled:before { content: '\f09b'; } /* '' */
-.icon-linkedin:before { content: '\f0e1'; } /* '' */
-.icon-flickr:before { content: '\f16e'; } /* '' */
+.icon-mail:before { content: '\e800'; }
+.icon-twitter:before { content: '\f099'; }
+.icon-facebook:before { content: '\f09a'; }
+.icon-github-circled:before { content: '\f09b'; }
+.icon-linkedin:before { content: '\f0e1'; }
+.icon-flickr:before { content: '\f16e'; }
