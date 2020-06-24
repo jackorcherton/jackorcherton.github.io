@@ -33,6 +33,7 @@ body {
 nav {
   overflow: hidden;
   background-color: #333;
+  z-index:9999;
 }
 
 nav a {
@@ -43,6 +44,8 @@ nav a {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  z-index:9999;
+  border-bottom: 3px solid #333;
 }
 
 nav a:hover {
