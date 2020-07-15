@@ -26,6 +26,10 @@ twitter_username: JackOrcherton
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-paginate
+
+paginate: 3
+paginate_path: /blog/page:num/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
