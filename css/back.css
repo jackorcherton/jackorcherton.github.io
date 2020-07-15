@@ -101,8 +101,10 @@ nav .icon {
 a {
 	color:#fff;
 	font-size: 1.5em;
+	text-decoration: none;
 }
 
 a:hover {
 	color: #333;
+	text-decoration: underline;
 }

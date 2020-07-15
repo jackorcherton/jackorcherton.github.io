@@ -13,7 +13,7 @@
 title: Jack Orcherton
 description: The personal website for Jack Orcherton
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" #Need to change before push
+url: "https://jackorcherton.github.io" #Need to change before push
 
 #Social Links
 facebook_username: jackorcherton
@@ -23,9 +23,9 @@ linkedin_username: jack-orcherton
 twitter_username: JackOrcherton
 
 # Build settings
-remote_theme: /root/web/jackyll_theme/
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
