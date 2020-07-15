@@ -1,14 +1,14 @@
   <nav class="topnav" id="myTopnav">
     {% if page.url == "/" %}
-      <a href="/index.html" class="active">Home</a>
+      <a href="/" class="active">Home</a>
     {% else %}
-      <a href="/index.html">Home</a>
+      <a href="/">Home</a>
     {% endif %}
 
-    {% if page.url == "/about.html" %}
-      <a href="/about.html" class="active">About</a>
+    {% if page.url == "/about/" %}
+      <a href="/about/" class="active">About</a>
     {% else %}
-      <a href="/about.html">About</a>
+      <a href="/about/">About</a>
     {% endif %}
 
     {% if page.url == "/blog.html" %}
@@ -17,10 +17,10 @@
       <a href="/blog.html">Blog</a>
     {% endif %}
 
-    {% if page.url == "/contact.html" %}
-      <a href="/contact.html" class="active">Contact</a>
+    {% if page.url == "/contact/" %}
+      <a href="/contact/" class="active">Contact</a>
     {% else %}
-      <a href="/contact.html">Contact</a>
+      <a href="/contact/">Contact</a>
     {% endif %}
 
     <a href="javascript:void(0);" class="icon" onclick="mobileMenu()"><span>☰</span></a>
