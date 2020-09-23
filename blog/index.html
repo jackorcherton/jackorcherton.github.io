@@ -2,19 +2,14 @@
 layout: page
 title: Blog
 ---
-<ul>
   {% for post in paginator.posts %}
-      <h3><a style="color:black;" href="{{ post.url }}">{{ post.title }}</a></h3>
+      <h4><a class="blogTitle" href="{{ post.url }}">{{ post.title }} | {{ post.date | date: "%A %-d %B %Y" }}</a></h4>
       
       <hr style="border: 1px solid #bbb; margin-top: -15px;">
-      <ul>
-      <h4>{{ post.date | date: "%A %-d %B %Y" }}</h4>
       {{ post.excerpt }}
-      <p><a style="color:black;" href="{{ post.url }}">Read More -></a></p>
-      </ul>
+      <a href="{{ post.url }}">Read More -></a>
   {% endfor %}
 <!---Page Numbers--->
-</ul>
 
 {% if paginator.total_pages > 1 %}
 <div class="pagination">

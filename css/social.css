@@ -56,7 +56,7 @@
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
- 
+
 .icon-mail:before { content: '\e800'; }
 .icon-twitter:before { content: '\f099'; }
 .icon-facebook:before { content: '\f09a'; }
