@@ -1,4 +1,4 @@
-# THM RootMe Walkthrough
+# RootMe Walkthrough
 
 
 One of the best ways to learn ethical hacking is to practice it. So below is a walkthrough of the [RootMe Room on THM](https://tryhackme.com/room/rrootme)
