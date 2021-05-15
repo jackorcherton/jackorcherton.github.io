@@ -1,6 +1,7 @@
 ---
-title: "THM RootMe Walkthrough"
+title: "RootMe Walkthrough"
 date: 2021-05-07T14:50:28+01:00
+lastmod: 2021-05-12T17:51:51+01:00
 draft: false
 description: "A walkthrough to the RootMe Room on TryHackMe."
 
