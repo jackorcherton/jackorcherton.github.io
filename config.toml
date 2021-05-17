@@ -1,6 +1,6 @@
 baseURL = "https://jackorcherton.github.io"
 defaultContentLanguage = "en-gb"
-theme = "CodeIT"
+theme = "HackIt"
 title = "Jack Orcherton"
 enableRobotsTXT = true
 enableGitInfo = true
