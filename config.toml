@@ -1,10 +1,17 @@
-baseURL = "https://jackorcherton.github.io"
-defaultContentLanguage = "en-gb"
-theme = "HackIt"
+baseURL = "https://jackorcherton.github.io/"
+defaultContentLanguage = "en"
+languageCode = "en"
 title = "Jack Orcherton"
-enableRobotsTXT = true
+theme = "HackIt"
 enableGitInfo = true
-enableEmoji = true
+enableRobotsTXT = true
+
+[params]
+  version = "0.2.X"
+  description = "The personal site for Jack Orcherton"
+  keywords = ["Jack", "Orcherton", "Jack Orcherton", "cybersecurity", "Ethical Hacking", "CV"]
+  defaultTheme = "dark"
+  gitRepo = "https://github.com/jackorcherton/jackorcherton.github.io"
 
 [menu]
   [[menu.main]]
@@ -23,245 +30,48 @@ enableEmoji = true
     url = "/categories/"
     weight = 3
 
-[params]
-  version = "0.2.X"
-  description = "The personal site for Jack Orcherton"
-  keywords = ["Jack", "Orcherton", "Jack Orcherton", "cybersecurity", "Ethical Hacking", "CV"]
-  defaultTheme = "dark"
-  gitRepo = "https://github.com/jackorcherton/jackorcherton.github.io"
-  dateFormat = "2006-01-02"
-  images = ["/logo.png"]
+[params.cookieconsent]
+  enable = false
 
-  [params.app]
-    title = "Jack Orcherton"
-    noFavicon = false
-    svgFavicon = ""
-    # Android browser theme color
-    themeColor = "#ffffff"
-    # Safari mask icon color
-    iconColor = "#5bbad5"
-    # Windows v8-10 tile color
-    tileColor = "#da532c"
+[params.search]
+  enable = true
+  type = "lunr"
+  contentLength = 4000
+  placeholder = ""
+  maxResultLength = 10
+  snippetLength = 30
+  highlightTag = "em"
+  absoluteURL = false
 
-  [params.search]
-    enable = true
-    type = "lunr"
-    contentLength = 4000
-    placeholder = ""
-    maxResultLength = 10
-    snippetLength = 30
-    highlightTag = "em"
-    absoluteURL = false
+[params.page]
+  linkToMarkdown = true
+  hiddenFromSearch = false
 
-  [params.header]
-    desktopMode = "fixed"
-    mobileMode = "auto"
-    [params.header.title]
-      logo = ""
-      name = "Jack Orcherton"
-      pre = ""
-      post = ""
-      typeit = false
+[params.footer]
+  hugo = false
+  since = 2021
 
-  [params.footer]
-    enable = true
-    custom = ''
-    hugo = false
-    copyright = true
-    author = true
-    since = 2021
-    license = ""
+[params.home.profile]
+  gravatarEmail = "jackorcherton@outlook.com"
+  avatarAlt = "Jack Orcherton"
+  title = "Jack Orcherton"
+  subtitle = "Cybersecurity and Ethical Hacking Student, plus Overall Tech Enthusiast"
+  disclaimer = "Content on this website will teach hacking, you are responsible to ensure that it is used ethically and all laws are followed"
+  typeit = true
 
-  [params.section]
-    paginate = 20
-    dateFormat = "01-02"
-    rss = 10
+[params.social]
+  GitHub = "jackorcherton"
+  Linkedin = "jack-orcherton"
+  Twitter = "JackOrcherton"
+  Instagram = "jackorcherton"
+  Facebook = "jackorcherton"
+  Telegram = "JackOrcherton"
+  RSS = true 
 
-  [params.list]
-    paginate = 20
-    dateFormat = "01-02"
-    rss = 10
-
-  [params.home]
-    rss = 10
-    [params.home.profile]
-      enable = true
-      gravatarEmail = "jackorcherton@outlook.com"
-      avatarURL = "/images/avatar.png"
-      avatarAlt = "Jack Orcherton"
-      title = "Jack Orcherton"
-      subtitle = "Cybersecurity and Ethical Hacking Student, plus Overall Tech Enthusiast"
-      typeit = true
-      social = true
-      disclaimer = "Content on this website will teach hacking, you are responsible to ensure that it is used ethically and all laws are followed"
-      
-    [params.home.posts]
-      enable = true
-      paginate = 6
-      defaultHiddenFromHomePage = false
-
-  [params.social]
-    GitHub = "jackorcherton"
-    Linkedin = "jack-orcherton"
-    Twitter = "JackOrcherton"
-    Instagram = "jackorcherton"
-    Facebook = "jackorcherton"
-    Telegram = "JackOrcherton"
-    Quora = ""
-    Stackoverflow = ""
-    Email = ""
-    RSS = true
-
-  [params.page]
-    hiddenFromHomePage = false
-    hiddenFromSearch = false
-    twemoji = false
-    lightgallery = false
-    ruby = true
-    fraction = true
-    fontawesome = true
-    linkToMarkdown = true
-    rssFullText = false
-    
-    [params.page.toc]
-      enable = true
-      keepStatic = true
-      auto = true
-      
-    [params.page.math]
-      enable = true
-      blockLeftDelimiter = ""
-      blockRightDelimiter = ""
-      inlineLeftDelimiter = ""
-      inlineRightDelimiter = ""
-      copyTex = true
-      mhchem = true
-
-    [params.page.code]
-      copy = true
-      maxShownLines = 10
-
-    [params.page.mapbox]
-      accessToken = ""
-      lightStyle = "mapbox://styles/mapbox/light-v9"
-      darkStyle = "mapbox://styles/mapbox/dark-v9"
-      # whether to add NavigationControl
-      navigation = true
-      # whether to add GeolocateControl
-      geolocate = true
-      # whether to add ScaleControl
-      scale = true
-      # whether to add FullscreenControl
-      fullscreen = true
-    # social share links in post page
-    [params.page.share]
-      enable = false
-      
-    [params.page.comment]
-      enable = false
-      
-    [params.page.seo]
-      # image URL
-      images = []
-      # Publisher info
-      [params.page.seo.publisher]
-        name = "Jack Orcherton"
-        logoUrl = ""
-
-  [params.typeit]
-    speed = 100
-    cursorSpeed = 1000
-    cursorChar = "|"
-    duration = -1
-
-  # Site SEO config
-  [params.seo]
-    # image URL
-    image = ""
-    # thumbnail URL
-    thumbnailUrl = ""
-
-  # Cookie consent config
-  [params.cookieconsent]
-    enable = false
-
-  
-
-  # Compatibility config
-  [params.compatibility]
-    # whether to use Polyfill.io to be compatible with older browsers
-    polyfill = false
-    # whether to use object-fit-images to be compatible with older browsers
-    objectFit = false
-
-# Markup related config in Hugo
-[markup]
-  # Syntax Highlighting
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = true
-    lineNos = true
-    lineNumbersInTable = true
-    # false is a necessary configuration
-    # (https://github.com/sunt-programator/CodeIT/issues/158)
-    noClasses = false
-  # Goldmark is from Hugo 0.60 the default library used for Markdown
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      definitionList = true
-      footnote = true
-      linkify = true
-      strikethrough = true
-      table = true
-      taskList = true
-      typographer = true
-    [markup.goldmark.renderer]
-      # whether to use HTML tags directly in the document
-      unsafe = true
-  # Table Of Contents settings
-  [markup.tableOfContents]
-    startLevel = 2
-    endLevel = 6
-
-# Author config
 [author]
   name = "Jack Orcherton"
-  email = ""
-  link = ""
 
-# Sitemap config
-[sitemap]
-  changefreq = "weekly"
-  filename = "sitemap.xml"
-  priority = 0.5
-
-# Permalinks config
-[Permalinks]
-  # posts = ":year/:month/:filename"
-  posts = ":filename"
-
-# Privacy config
-[privacy]
-  # privacy of the Google Analytics (replaced by params.analytics.google)
-  [privacy.googleAnalytics]
-    # ...
-  [privacy.twitter]
-    enableDNT = true
-  [privacy.youtube]
-    privacyEnhanced = true
-
-[mediaTypes]
-  [mediaTypes."text/plain"]
-    suffixes = ["md"]
-
-[outputFormats.MarkDown]
-  mediaType = "text/plain"
-  isPlainText = true
-  isHTML = false
-
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
-  page = ["HTML", "MarkDown"]
-  section = ["HTML", "RSS"]
-  taxonomy = ["HTML", "RSS"]
-  taxonomyTerm = ["HTML"]
+[markup]
+  [markup.highlight]
+    # required
+    noClasses = false
