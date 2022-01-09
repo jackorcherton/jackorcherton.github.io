@@ -8,21 +8,25 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
+    identifier = "home"
+    name = "Home"
+    url = "/"
     weight = 1
   [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
+    identifier = "about"
+    name = "About"
+    url = "/about/"
     weight = 2
   [[menu.main]]
-    identifier = "categories"
-    name = "Categories"
-    url = "/categories/"
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
     weight = 3
-
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
 
 [params]
   version = "0.2.X"
