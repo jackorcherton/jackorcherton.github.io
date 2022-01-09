@@ -5,8 +5,6 @@ form: true
 
 Have a question that you wish to ask? Well either fill out the form below, or contact me via any method on the [homepage](/)!
 
-<script type="text/javascript" src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
-
 <form action="https://send.pageclip.co/kljeYJs5nhVLoa4gTl19iW2a7krYk0tL" class="pageclip-form pageclip-form--success" method="post">
   <label for="name">Name:</label><br>
   <input type="text" name="name" placeholder="Your Name" required /><br>
