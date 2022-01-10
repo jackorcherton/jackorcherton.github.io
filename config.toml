@@ -40,7 +40,7 @@ enableRobotsTXT = true
 
   [params.app]
     title = "Jack Orcherton"
-    noFavicon = false
+    noFavicon = true
     svgFavicon = ""
     # Android browser
     themeColor = "#ffffff"
@@ -80,7 +80,7 @@ enableRobotsTXT = true
     hugo = false
     copyright = true
     author = true
-    since = 2021
+    since = 2019
     icp = ""
     license = ''
 
@@ -98,25 +98,23 @@ enableRobotsTXT = true
     rss = 10
     [params.home.profile]
       enable = true
-      gravatarEmail = "jackorcherton@outlook.com"
+      avatarURL = "/img/me.jpeg"
       avatarAlt = "Jack Orcherton"
       title = "Jack Orcherton"
       subtitle = "Cybersecurity and Ethical Hacking Student, plus Overall Tech Enthusiast"
       disclaimer = "Content on this website will teach hacking, you are responsible to ensure that it is used ethically and all laws are followed"
       typeit = true
+      social = true
 
     [params.home.posts]
-      enable = true
-      paginate = 6
-      defaultHiddenFromHomePage = false
+      enable = false
 
   [params.social]
     GitHub = "jackorcherton"
     Linkedin = "jack-orcherton"
     Twitter = "JackOrcherton"
-    Instagram = "jackorcherton"
-    Facebook = "jackorcherton"
     Telegram = "JackOrcherton"
+    Email = "contact"
     RSS = true
 
   [params.page]
@@ -124,10 +122,10 @@ enableRobotsTXT = true
     hiddenFromSearch = false
     twemoji = false
     lightgallery = false
-    ruby = true
-    fraction = true
+    ruby = false
+    fraction = false
     fontawesome = true
-    linkToMarkdown = true
+    linkToMarkdown = false
     rssFullText = false
 
     [params.page.toc]
@@ -136,56 +134,29 @@ enableRobotsTXT = true
       auto = true
 
     [params.page.math]
-      enable = true
+      enable = false
       blockLeftDelimiter = ""
       blockRightDelimiter = ""
       inlineLeftDelimiter = ""
       inlineRightDelimiter = ""
-      copyTex = true
-      mhchem = true
+      copyTex = false
+      mhchem = false
       
     [params.page.code]
-      copy = true
+      copy = false
       maxShownLines = 10
 
     [params.page.mapbox]
       accessToken = ""
       lightStyle = "mapbox://styles/mapbox/light-v9"
       darkStyle = "mapbox://styles/mapbox/dark-v9"
-      navigation = true
-      geolocate = true
-      scale = true
-      fullscreen = true
+      navigation = false
+      geolocate = false
+      scale = false
+      fullscreen = false
 
     [params.page.share]
       enable = false
-      Twitter = true
-      Facebook = true
-      Linkedin = false
-      Whatsapp = true
-      Pinterest = false
-      Tumblr = false
-      HackerNews = false
-      Reddit = false
-      VK = false
-      Buffer = false
-      Xing = false
-      Line = true
-      Instapaper = false
-      Pocket = false
-      Digg = false
-      Stumbleupon = false
-      Flipboard = false
-      Weibo = true
-      Renren = false
-      Myspace = true
-      Blogger = true
-      Baidu = false
-      Odnoklassniki = false
-      Evernote = true
-      Skype = false
-      Trello = false
-      Mix = false
 
     [params.page.comment]
       enable = false
@@ -403,7 +374,7 @@ enableRobotsTXT = true
 [outputs]
   # 
   home = ["HTML", "RSS", "JSON"]
-  page = ["HTML", "MarkDown"]
+  page = ["HTML"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
   taxonomyTerm = ["HTML"]

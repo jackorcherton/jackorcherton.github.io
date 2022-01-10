@@ -3,7 +3,7 @@ title: Contact Me
 form: true
 ---
 
-Have a question that you wish to ask? Well either fill out the form below, or contact me via any method on the [homepage](/)!
+Have a question that you wish to ask?
 
 <form action="https://send.pageclip.co/kljeYJs5nhVLoa4gTl19iW2a7krYk0tL/contact-form" class="pageclip-form pageclip-form--success" method="post">
   <label for="name">Name:</label><br>
@@ -23,3 +23,6 @@ Have a question that you wish to ask? Well either fill out the form below, or co
   </button>
 
 </form>
+
+## Don't Like Emails?
+That's fine, have a look at the [homepage](/) to find other ways to reach me!
