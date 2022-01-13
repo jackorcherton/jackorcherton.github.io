@@ -1,6 +1,6 @@
 ---
 title: "Learning Ethical Hacking"
-date: 2021-05-05T23:45:40+01:00
+date: 2021-05-05T23:45:40
 lastmod: 2021-05-05T23:45:40+01:00
 draft: false
 description: "A brief guide on how to start with Ethical Hacking."

@@ -3,6 +3,7 @@ defaultContentLanguage = "en"
 languageCode = "en"
 title = "Jack Orcherton"
 theme = "HackIt"
+timeZone = "Europe/London"
 enableGitInfo = true
 enableRobotsTXT = true
 
@@ -31,7 +32,7 @@ enableRobotsTXT = true
 [params]
   version = "0.2.X"
   description = "The personal site for Jack Orcherton"
-  keywords = ["Jack", "Orcherton", "Jack Orcherton", "cybersecurity", "Ethical Hacking", "CV"]
+  keywords = ["Jack", "Orcherton", "Jack Orcherton", "cyber security", "Ethical Hacking", "CV"]
   defaultTheme = "dark"
   gitRepo = "https://github.com/jackorcherton/jackorcherton.github.io"
   fingerprint = ""
@@ -101,8 +102,8 @@ enableRobotsTXT = true
       avatarURL = "/img/me.jpeg"
       avatarAlt = "Jack Orcherton"
       title = "Jack Orcherton"
-      subtitle = "Cybersecurity and Ethical Hacking Student, plus Overall Tech Enthusiast"
-      disclaimer = "Content on this website will teach hacking, you are responsible to ensure that it is used ethically and all laws are followed"
+      subtitle = "Cyber Security and Ethical Hacking Student"
+      disclaimer = "Some content on this website teaches hacking, in the trust that you will use it ethically and ensure that you follow all local and relevant laws."
       typeit = true
       social = true
 
@@ -336,7 +337,7 @@ enableRobotsTXT = true
 [author]
   name = "Jack Orcherton"
   email = ""
-  link = ""
+  link = "/about"
 
 # Sitemap config
 [sitemap]

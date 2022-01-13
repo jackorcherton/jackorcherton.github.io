@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: https://jackorcherton.github.io/contact/
+Expires: 2024-01-12T19:59:00.000Z
+Encryption: https://jackorcherton.github.io/.well-known/openpgpkey
+Acknowledgments: https://jackorcherton.github.io/security-acknowledgements
+Preferred-Languages: en
+Canonical: https://jackorcherton.github.io/.well-known/security.txt
+Policy: https://github.com/jackorcherton/jackorcherton.github.io/blob/main/SECURITY.md
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEwmiBMoQGESKznTptazi9/Qhx4gcFAmHfVigACgkQazi9/Qhx
+4gfwTQ/8C0AIFQKw37QA680TfNQPf6+F5UF3LZKRRotRqes4aOUvpWvOCXyQAiwa
+pvUD6fhUT8tFiNTgYsM99rzC5gBrs3nYf+IPL/Dr3SWT9gSGp0TyKx3oITU8LPwj
+S1BcK/jNF83Jt60gfi1e3BuMGvAHWq3luT3jqWVuH2gTCUc1vn5DyBq1oNTHuOhx
+n8z0UVaYYELnty/g/pOeFjAzdHYV05rzoTGYqtxXN6KfoDgsxzNhK0ixFCWXJQp+
+fj9G0jHg3fohDfmzGsm0gHB/bCdt7vSuCnAVCU/n7LEYFcOMPRZM0s0+GV7pZsBu
+QsyI4Q0+05wFlJKJrxU9E6UpDPNSHheAHWf9czTd0ztCLaABKLbMRAEkLP7Dnxzm
+MvAToy8KVgbmBbS93EMUWlXSueKf/HfRMee8tAzHk8xuSaM03HZjDyH+aPHaqPZs
+P2FKz2KXKOtlIWAbzN3uNywQ5h17nI/kV3LJCOOlGeDDykvU7TJSWg1wCA0daZRa
+8aZJxEeUYtV+PuBbcYsAoq9NY01035sKzLVrp2tprqGnKUo00k83lE8kEfdcvU3D
+1/lnCu5NUu/Nq6sguuDyGapVA+Nofw9KhAEaKe8SWGCzd56pK0rt8naRFx/ehVWy
+1sREVzJuaOgSRddoGknHBp7qlGQWkCVskCO8TzOYe2HwMRIrIIA=
+=7PMa
+-----END PGP SIGNATURE-----

@@ -24,5 +24,8 @@ Have a question that you wish to ask?
 
 </form>
 
+## Have a secret?
+Let's keep it that way then! Fill out the above form, and encrypt your message using my [public PGP key](/.well-known/openpgpkey). Remember to include your own public PGP key, so that I can respond securely.
+
 ## Don't Like Emails?
 That's fine, have a look at the [homepage](/) to find other ways to reach me!
