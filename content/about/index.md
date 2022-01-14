@@ -1,5 +1,6 @@
 ---
 title: "About Me"
+description: "Hello, I’m Jack Orcherton, read this page to find out more about me!"
 ---
 
 Hello, I'm Jack Orcherton; a final year Bachelor of Science student studying Cyber Security and Ethical Hacking. I am currently looking for graduate jobs in the cyber security industry. I have a keen interest in penetration testing, social engineering and network security. Below shows the modules I have undertaken so far, achieving a first in each:

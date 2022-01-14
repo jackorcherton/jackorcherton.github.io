@@ -2,6 +2,7 @@
 title: "Welcome"
 date: 2021-05-03T00:00:01
 draft: false
+toc: false
 tags: ["Welcome"]
 ---
 

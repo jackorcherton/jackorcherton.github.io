@@ -12,9 +12,9 @@ categories: ["TryHackMe Walkthroughs"]
 
 One of the best ways to learn ethical hacking is to practice it. So below is a walkthrough of the [RootMe Room on THM](https://tryhackme.com/room/rrootme)
 
-# Reconnaissance
+## Reconnaissance
 
-## Nmap
+### Nmap
 As with most machines, I began with an Nmap scan - which answers the first few questions. 
 
 I firstly scanned with sV to determine the software versions, however as the target wouldn't respond to host discovery, I had to disable it using the -Pn option.
@@ -35,7 +35,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 12.90 seconds
 ```
 
-## Directory Searching
+### Directory Searching
 
 Next we had to preform a directory brute force, so I started dirb.
 
@@ -61,7 +61,7 @@ GENERATED WORDS: 4612
 ==> DIRECTORY: http://10.10.130.205/panel/
 ```
 
-# Getting a Shell
+## Getting a Shell
 
 From the recon above, we discover the page /panel/ and when we navigate to that page, we are presented with a file upload area.
 
@@ -82,7 +82,7 @@ Once we uploaded the file, we are provided with a success message; it says Veja 
 
 Now we return to the netcat listener and we have received a shell and can find the user flag.
 
-# Privilege Escalation
+## Privilege Escalation
 
 Now we have found the user flag, we need to escalate our privileges. To do this, I used to find files with a SUID bit.
 

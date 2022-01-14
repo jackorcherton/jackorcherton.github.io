@@ -1,9 +1,10 @@
 ---
 title: Contact Me
 form: true
+description: "Have any questions? Then use this form to contact me!"
 ---
 
-Have a question that you wish to ask?
+If you have any questions, do not hesitate and contact me by filling out the form below, and I will respond via email (unless another method is requested). Wish to encrypt your message? That's fine, you can find my <a href="/.well-known/openpgpkey" target="_blank">public PGP key here</a>, do not forget to include your own so that I am able to respond securely.
 
 <form action="https://send.pageclip.co/kljeYJs5nhVLoa4gTl19iW2a7krYk0tL/contact-form" class="pageclip-form pageclip-form--success" method="post">
   <label for="name">Name:</label><br>
@@ -23,9 +24,6 @@ Have a question that you wish to ask?
   </button>
 
 </form>
-
-## Have a secret?
-Let's keep it that way then! Fill out the above form, and encrypt your message using my [public PGP key](/.well-known/openpgpkey). Remember to include your own public PGP key, so that I can respond securely.
 
 ## Don't Like Emails?
 That's fine, have a look at the [homepage](/) to find other ways to reach me!
