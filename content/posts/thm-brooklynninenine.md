@@ -1,7 +1,7 @@
 ---
 title: "Brooklyn Nine-Nine Walkthrough"
-date: 2022-04-23T00:40:28
-lastmod: 2022-04-23T00:40:28
+date: 2022-04-22T15:06:28
+lastmod: 2022-04-22T17:06:29
 draft: false
 description: "A walkthrough to the Brooklyn Nine-Nine Room on TryHackMe."
 
