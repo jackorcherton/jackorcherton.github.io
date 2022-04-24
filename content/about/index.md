@@ -37,6 +37,7 @@ To view some of my work, please head to the [Comsec website](https://cov-comsec.
 ### Cisco
 I am both Cisco Network Essentials and Cybersecurity Essentials verified; please head to [Credly](https://www.credly.com/users/jack-orcherton/badges) to view my awards.
 
+[![CCNA: Enterprise Networking, Security, and Automation Badge](ccna-enterprise.png)](https://www.credly.com/badges/2f074a3c-2346-444d-a8b1-223b34c058f9/)
 [![Cisco Cybersecurity Essentials Badge](cybersecurity.png)](https://www.credly.com/badges/fc84238e-d917-4a39-a0be-56a33d6e46a1/)
 [![Cisco Networking Essentials Badge](networking.png)](https://www.credly.com/badges/091d5b74-d441-405e-bdd7-a31947c9b546/)
 [![Cisco Introduction to Internet of Things Badge](iot.png)](https://www.credly.com/badges/776dd09b-9dfb-4ed0-aa70-f9509fc7623e/)
