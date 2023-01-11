@@ -113,8 +113,6 @@ enableRobotsTXT = true
   [params.social]
     GitHub = "jackorcherton"
     Linkedin = "jack-orcherton"
-    Twitter = "JackOrcherton"
-    Telegram = "JackOrcherton"
     Email = "contact"
     RSS = true
 
